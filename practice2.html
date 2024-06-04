@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varialble</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <main>
+        <button class="bag1" onclick="cardq=cardq+1 ;   document.querySelector('#card').innerText= `your bag has ${cardq} items`;
+        "> Add to Bag</button>
+        <button class="bag2" onclick="cardq=cardq-1 ;   document.querySelector('#card').innerText= `your bag has ${cardq} items`;
+        "> MOVE TO WISHLIST </button>
+
+        <button class="bag1" onclick="cardq=cardq+2 ;   document.querySelector('#card').innerText= `your bag has ${cardq} items`;
+        ">Add items</button>
+        <br>
+
+        <h1 id="card"></h1>
+    </main>
+    
+<script>
+
+   // let a= "indranil";
+   // console.log("Tiku");
+   // console.log(a);
+   let cardq=0;
+   document.querySelector('#card').innerText= `your bag has ${cardq} items`;
+
+</script>    
+</body>
+</html>

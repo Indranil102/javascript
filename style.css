@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.bag1{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: lightgreen;
+    border-style: none;
+}
+.bag2{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+  
+}

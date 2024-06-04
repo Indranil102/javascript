@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects </title>
+</head>
+<body>
+    
+
+    <script>
+        let  product = {
+            company:'Mango',
+            price:861,
+            item_name:'T-shirt',
+            displayprice: function(){
+                console.log(`price of the product is ${this.price}`);
+            }
+
+        };
+          //  console.log( product);
+        //   console.log(product.company);
+          //  console.log(product.item_name);
+
+            //change name 
+
+            //product.company='Banana';
+            //console.log(product);
+            //console.log(product.company);
+
+
+            // bracket notation another method to access object value
+            //console.log( product["company"]);
+            // it is used when there is key is written in eg 'itme-name' 
+            // to access it we use [ ] 
+
+           // delete product.company;
+           // console.log(product);
+
+            //product.displayprice();
+
+            //Autotboxing
+
+            console.log("indranil".toUpperCase()); 
+    </script>
+</body>
+</html>

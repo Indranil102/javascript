@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Property and Method</title>
+</head>
+<body>
+
+    <div class="my-div"> THIS IS A DIV</div>
+    <script>
+        let button=document.createElement('Button');  // here i created a button in side a div 
+        button.innerText='click me';
+        document.querySelector('.my-div').appendChild(button);  // i append a button after the text using DOM 
+         document.querySelector('.my-div').removeChild(button); // it remve the created child 
+    </script>
+    
+</body>
+</html>

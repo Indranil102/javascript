@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Shortcut</title>
+</head>
+<body>
+    
+    <Script>
+        let  product = {
+            company:'Mango',
+            price:861,
+            item_name:'T-shirt',
+          // another way to represent function inside an object 
+            displayPrice(){
+                return `${this.price.toFixed(2)}`;
+            }
+            
+
+        };
+        
+        // de structurd  ing 
+        // accessing annd store using object varable
+        let {company,price}=product;
+        console.log(company);
+        console.log(product);
+        
+    </Script>
+</body>
+</html>
