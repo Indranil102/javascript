@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricketgamewithobject</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bat Ball Stump Game </h1>
+   
+    <button class="choice-button" onclick="
+   let computerchoice= generateComputerchoice();
+   
+   let result=getresult('Bat',computerchoice);
+
+   showresult('Bat',computerchoice,result);
+    
+    "><img src="bat.png" alt="bat image" class="choice-image"></button>
+
+     <!-- for ball -->
+    <button class="choice-button" onclick="
+
+     computerchoice =generateComputerchoice();
+     result=getresult('Ball',computerchoice);
+    showresult('Ball',computerchoice,result);
+    "><img src="ball.png" alt="ball image" class="choice-image"></button>
+
+
+
+    <!-- for stump-->
+    <button class="choice-button"
+    onclick="
+    computerchoice= generateComputerchoice();
+
+       result=getresult('Stump',computerchoice);
+       showresult('Stump',computerchoice,result);
+    
+    "><img src="stump.png" alt="stump image" class="choice-image"></button>
+
+    
+
+    <h3 id="user-move"></h3>
+    <h3 id="computer-move"></h3>
+    <h3 id="result"></h3>
+    <h3 id="score"></h3>
+
+    <button onclick="localStorage.clear()
+    resetScore();
+       
+
+    ">
+        reset
+    </button>
+
+
+
+
+    <script src="script.js">
+      
+
+
+    </script>
+</body>
+</html>
