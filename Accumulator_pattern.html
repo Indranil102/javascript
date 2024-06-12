@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accumulatoer Pattern</title>
+</head>
+<body>
+    <script>
+        let num = [1,2,3,4,5,6,9,8,7,10,20,30];
+        let sum=0;
+        for (let i=0;i<num.length;i++)
+        {
+            sum=sum+i;
+        }
+        console.log('Sum of array '+ sum);
+
+        let square=[];
+        for (let i=0;i<num.length;i++){
+            square[i]=num[i]*num[i];
+        }
+
+        console.log(square)
+    </script>
+    
+</body>
+</html>
