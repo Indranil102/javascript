@@ -11,8 +11,9 @@ Welcome to my JavaScript projects repository! Here, you'll find various projects
 - **Folder:** ([Project_cricket game](https://github.com/Indranil102/javascript/tree/main/Project_cricket%20game))
 
 ### 2. Upcoming Project
-- **Description:** This project is currently under development. Stay tuned for updates!
-- **Folder:** [Upcoming_Project](https://github.com/yourusername/Upcoming_Project)
+- **Description:**
+"Introducing our innovative to-do app, designed to streamline your task management process effortlessly. With our user-friendly interface crafted using HTML, CSS, and JavaScript, you can easily enter any task or schedule future activities with ease. Simply input your tasks, whether it's a daily chore, a work assignment, or a personal goal, and mark them as completed once done. Our intuitive design allows you to delete tasks once they're accomplished, keeping your to-do list clean and organized. Experience productivity like never before with our to-do app."
+- **Folder:** [TODO APP](https://github.com/Indranil102/javascript/tree/main/TODO%20APP)
 
 ## How to Use:
 1. Navigate to the project folder you're interested in by clicking on the provided links.
