@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous function</title>
+</head>
+<body>
+    
+    <script>
+       let sum= function(num1,num2){
+            return num1+num2;
+        };
+
+      // console.log( sum(4,5));
+       let sumThreeNumber = function(num1,num2,num3,sumTwoNumber){
+        let sum1=sumTwoNumber(num1, num2);
+        return sumTwoNumber(sum1,num3);
+       }
+
+       console.log(sumThreeNumber(4,5,6,sum));
+
+       console.log(sumThreeNumber);
+
+       // Arrow function
+
+        let sum3= (num1, num2)=>{
+            return num1 +num2 ;
+        }
+
+        let square= num =>{   // if it is single argument then don't nedd to put bracket 
+            return num*num;
+        }
+        /*
+        Another way and more simplly way to write 
+        let square= num => num*num; 
+        here js understand that it can return it and there is no required of curly bracket 
+        */ 
+        console.log(square(5));
+        console.log(sum3(4,6));
+
+    </script>
+
+</body>
+</html>
