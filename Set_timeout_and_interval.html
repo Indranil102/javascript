@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set timeout and Set interval </title>
+</head>
+<body>
+    <button id="my-button">click me</button>
+
+    <script>
+
+        let alarm=function(){
+            console.log("hello");
+        }
+        console.log("alarm set");
+       // let timerID=setTimeout(alarm ,5000);
+       // clearTimeout(timerID);
+
+        let intervalid= setInterval(alarm,1000);
+        setTimeout(()=>clearInterval(intervalid),5000);
+
+
+        // event listner
+        let click=document.querySelector('#my-button');
+        click.addEventListener('click', event=> console.log('I am click'));
+
+        let printDate= event => console.log(new Date());
+        click.addEventListener('click',printDate);
+
+       // click.removeEventListener('click',)
+        
+
+    </script>
+</body>
+</html>
