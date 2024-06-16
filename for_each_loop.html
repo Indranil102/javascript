@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for each loop and array method</title>
+</head>
+<body>
+    
+    <script>
+        let arr=[1,6,9,7];
+        arr.forEach((num) => console.log(num)
+        );
+        let arr1=[1,2,3,4,5,6,7,8,9,10];
+       let odds= arr1.filter((num,index)=>{
+            if (num%2===1)
+            {
+                return true;
+            }else{
+                return false;
+            }
+        });
+
+        console.log(odds);
+
+        //map
+
+        let arr2=[1,2,3,4];
+        let sq=arr2.map((num)=>num*num);
+        console.log(sq);
+
+    </script>
+</body>
+</html>
