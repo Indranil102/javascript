@@ -18,7 +18,7 @@ Welcome to my JavaScript projects repository! Here, you'll find various projects
 ### 3. Upcoming Project
 - **Description:**
 "Sneaker is an e-commerce website specializing in branded shoe collections. This project showcases various branded shoes that users can browse and purchase directly from the website. The website is built using HTML, CSS, and JavaScript to provide a realistic and interactive shopping experience"
-- **Folder:** [Sneaker_WebSite]([https://github.com/Indranil102/javascript/tree/main/TODO%20APP](https://github.com/Indranil102/SneaKER_webSITE))
+- **Folder:** [Sneaker_WebSite](https://github.com/Indranil102/SneaKER_webSITE.git)
 
 ### 4. Upcoming Project
 - **Description:**
