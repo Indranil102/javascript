@@ -10,10 +10,20 @@ Welcome to my JavaScript projects repository! Here, you'll find various projects
 - **Description:** This project is a simple cricket game implemented using HTML, CSS, and JavaScript. It utilizes DOM manipulation and JSON for data storage.
 - **Folder:** ([Project_cricket game](https://github.com/Indranil102/javascript/tree/main/Project_cricket%20game))
 
-### 2. Upcoming Project
+### 2. Todo App
 - **Description:**
 "Introducing our innovative to-do app, designed to streamline your task management process effortlessly. With our user-friendly interface crafted using HTML, CSS, and JavaScript, you can easily enter any task or schedule future activities with ease. Simply input your tasks, whether it's a daily chore, a work assignment, or a personal goal, and mark them as completed once done. Our intuitive design allows you to delete tasks once they're accomplished, keeping your to-do list clean and organized. Experience productivity like never before with our to-do app."
 - **Folder:** [TODO APP](https://github.com/Indranil102/javascript/tree/main/TODO%20APP)
+
+### 3. Upcoming Project
+- **Description:**
+"Sneaker is an e-commerce website specializing in branded shoe collections. This project showcases various branded shoes that users can browse and purchase directly from the website. The website is built using HTML, CSS, and JavaScript to provide a realistic and interactive shopping experience"
+- **Folder:** [Sneaker_WebSite]([https://github.com/Indranil102/javascript/tree/main/TODO%20APP](https://github.com/Indranil102/SneaKER_webSITE))
+
+### 4. Upcoming Project
+- **Description:**
+Ongoing"
+- **Folder:** []()
 
 ## How to Use:
 1. Navigate to the project folder you're interested in by clicking on the provided links.
